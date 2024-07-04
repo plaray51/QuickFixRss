@@ -1,6 +1,6 @@
 # QuickFixRSS
 
-This is a simple website built using Firebase, HTML, and CSS. It was created for a client on a tight budget in just a few hours.
+This is a simple website built using HTML, and CSS. It was created for a client on a tight budget in just a few hours.
 
 ## Project Overview
 
@@ -8,7 +8,6 @@ The client required a straightforward single-page website with basic HTML and CS
 
 ## Features
 
-- **Firebase Integration**: Utilizes Firebase for backend services.
 - **Simple and Clean Design**: Focused on providing a clean and responsive design using HTML and CSS.
 - **Efficient Development**: Completed in a few hours to meet tight budget and deadline requirements.
 
@@ -35,4 +34,4 @@ To view or run the project locally, follow these steps:
 
 ## Usage
 
-Simply open the `index.html` file in a web browser to see the website in action. Ensure that Firebase configuration is set up correctly for backend interactions.
+Simply open the `index.html` file in a web browser to see the website in action.
