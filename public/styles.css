@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #020913;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #020913;
+    color: white;
+    width: 100%;
+}
+
+.logo {
+    height: 300px;
+    width: auto;
+    margin-left: -45px; /* Adjust this value as needed */
+}
+
+.hero {
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #0f3460;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.hero h2 {
+    font-size: 1.5em;
+}
+
+.hero button {
+    background-color: #ee1532;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.contact {
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.contact button {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    background-color: #ee1532;
+    color: white;
+    cursor: pointer;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.service-category {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.service-category img {
+    width: 50px;
+    height: auto;
+    margin: 0 25px;
+}
+
+.service-category h3 {
+    margin: 0;
+}
+
+.service-category:hover .clickable-text {
+    color: #ff6666;
+    cursor: pointer;
+}
+
+.service-details {
+    display: none;
+    text-align: left;
+    padding: 10px 20px;
+    background-color: #0a2037;
+    width: 80%;
+    margin: 10px 0;
+}
+
+.service-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-details li {
+    margin: 5px 0;
+}
+
+.service-details button {
+    background-color: #ee1532;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.clickable {
+    color: #ee1532;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.clickable:hover {
+    color: #ff6666;
+}
+
+.social-media {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media img {
+    margin: 0 10px;
+    width: 40px;
+    height: auto;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.disclaimer {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #ccc;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickFix Roadside Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="Quickfix Roadside Services Logo" class="logo">
+    </div>
+    <div class="hero">
+        <button onclick="location.href='tel:+13314424376'">Call Us Now</button>
+        <h2>Quickfix Roadside Services</h2>
+        <p>Reliable, Rapid, 24/7</p>
+        <h1>STRANDED?<br>Get Back On The Road Fast!</h1>
+    </div>
+    <div class="contact">
+        <button onclick="location.href='tel:+13314424376'">Get a Free Quote Today!</button>
+    </div>
+    <div class="services">
+        <div class="service-category" onclick="toggleDetails('emergency')">
+            <img src="emergency_triangle.png" alt="Emergency Roadside Assistance Icon" class="service-icon">
+            <h3 class="clickable-text">Emergency Assistance</h3>
+            <img src="emergency_triangle.png" alt="Emergency Roadside Assistance Icon" class="service-icon">
+        </div>
+        <div id="emergency" class="service-details">
+            <ul>
+                <li>Battery Jump-Start: $50-$75 per service</li>
+                <li>Flat Tire Change w/ Spare: $65-$99 per service</li>
+                <li>Tire Repair/ Plug: $65-$99 per service</li>
+                <li>Tire Replacement/ New & Used: $99-$200 (service plus cost of tire)</li>
+                <li>Rim Lock & Stripped Bolt Removal: $20-$50</li>
+                <li>Mobile Auto Lockout: $65-$125</li>
+                <li>Battery Replacement: $75-$99</li>
+                <li>Gas Delivery: $75-$125 (including gas)</li>
+            </ul>
+            <button onclick="location.href='tel:+13314424376'">Call Now</button>
+        </div>
+
+        <div class="service-category" onclick="toggleDetails('towing')">
+            <img src="tow_truck.png" alt="Towing & Transport Icon" class="service-icon">
+            <h3 class="clickable-text">Towing & Transport</h3>
+            <img src="tow_truck.png" alt="Towing & Transport Icon" class="service-icon">
+        </div>
+        <div id="towing" class="service-details">
+            <ul>
+                <li>Towing: $75 hookup + $5 per mile</li>
+                <li>Emergency Ride Services: $40 for a one-way ride within city limits</li>
+            </ul>
+            <button onclick="location.href='tel:+13314424376'">Call Now</button>
+        </div>
+
+        <div class="service-category" onclick="toggleDetails('mobile')">
+            <img src="wrench.png" alt="Mobile Auto Care Icon" class="service-icon">
+            <h3 class="clickable-text">Mobile Auto Care</h3>
+            <img src="wrench.png" alt="Mobile Auto Care Icon" class="service-icon">
+        </div>
+        <div id="mobile" class="service-details">
+            <ul>
+                <li>Minor Roadside Repairs: Starts at $75, varies based on complexity</li>
+                <li>Mobile Mechanic Services: Variable rates, starting at $150 plus parts</li>
+                <li>Vehicle Detailing (Mobile): Basic package starting at $100, deluxe package at $200</li>
+                <li>Dry Ice Cleaning: Contact for pricing</li>
+                <li>Other Car Detailing Ventures: Contact for pricing</li>
+            </ul>
+            <button onclick="location.href='tel:+13314424376'">Call Now</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Email: <a href="mailto:info@quickfixroadsideservices.com" class="clickable">info@quickfixroadsideservices.com</a></p>
+        <p>Phone: <a href="tel:+13314424376" class="clickable">331-442-HERO (4376)</a></p>
+        <div class="social-media">
+            <a href="https://www.instagram.com/quickfixrss?igsh=b2RsaHM0M3Q2aDVh">
+                <img src="instagram.png" alt="Instagram Logo">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61560015777301&mibextid=kFxxJD">
+                <img src="facebook.png" alt="Facebook Logo">
+            </a>
+        </div>
+        <p class="disclaimer">Please note: Prices are subject to vary based on location, vehicle make, and model. Contact us for a personalized quote tailored to your specific needs. We strive to provide fair and competitive pricing for all our customers.</p>
+    </div>
+
+    <script>
+        function toggleDetails(serviceId) {
+            var details = document.getElementById(serviceId);
+            if (details.style.display === "block") {
+                details.style.display = "none";
+            } else {
+                details.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
